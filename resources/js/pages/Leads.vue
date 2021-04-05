@@ -32,7 +32,7 @@
             class="elevation-1"
             >
             <template v-slot:[`item.tags`]="{ item }">
-                <v-chip label v-for="tag in item.tags" :color="randomColor()" :key="tag.id">{{
+                <v-chip class="mr-2" label v-for="tag in item.tags" :color="randomColor()" :key="tag.id">{{
                 tag.name
                 }}</v-chip>
             </template>

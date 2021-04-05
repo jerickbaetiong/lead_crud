@@ -38729,6 +38729,7 @@ var render = function() {
                                 "v-chip",
                                 {
                                   key: tag.id,
+                                  staticClass: "mr-2",
                                   attrs: { label: "", color: _vm.randomColor() }
                                 },
                                 [_vm._v(_vm._s(tag.name))]
